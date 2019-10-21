@@ -5,6 +5,7 @@ let { buildSchema } = require('graphql');
 // Construct a schema, using GraphQL schema language
 let schema = buildSchema(`
   type Query {
+    server_time: String,
     hello: String
   }
 `);
@@ -13,6 +14,10 @@ let schema = buildSchema(`
 let root = {
   hello: () => {
     return 'Hello world!';
+  },
+  server_time: () => {
+    const mogeta = new Date().toGMTString();
+    return mogeta;
   }
 };
 
