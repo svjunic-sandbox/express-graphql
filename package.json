@@ -1,0 +1,19 @@
+{
+  "name": "sandbox-express-graphql",
+  "version": "1.0.0",
+  "description": "GraphQLのサイトに書いてあるexpress-graphqlを使ったソースからの確認用 実際は多分使わない。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svjunic/sandbox-express-graphql.git"
+  },
+  "author": "sv.junic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svjunic/sandbox-express-graphql/issues"
+  },
+  "homepage": "https://github.com/svjunic/sandbox-express-graphql#readme"
+}
